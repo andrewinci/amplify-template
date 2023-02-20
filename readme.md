@@ -15,3 +15,9 @@ Start dev server:
 ```bash
 yarn dev
 ```
+
+Publish to Amplify:
+
+```bash
+yarn amplify publish
+```
