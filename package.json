@@ -1,29 +1,37 @@
 {
-  "name": "amplify-template",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "amplify": "amplify"
-  },
-  "dependencies": {
-    "@aws-amplify/ui-react": "^4.3.8",
-    "aws-amplify": "^5.0.15",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@aws-amplify/cli": "^10.7.3",
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@vitejs/plugin-react": "^3.1.0",
-    "typescript": "^4.9.3",
-    "vite": "^4.1.0"
-  },
-  "volta": {
-    "node": "18.14.1",
-    "npm": "9.5.0",
-    "yarn": "1.22.19"
-  }
+    "name": "amplify-template",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "fmt": "prettier --write .",
+        "amplify": "amplify"
+    },
+    "dependencies": {
+        "@aws-amplify/ui-react": "^4.3.8",
+        "aws-amplify": "^5.0.15",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@aws-amplify/cli": "^10.7.3",
+        "@types/react": "^18.0.27",
+        "@types/react-dom": "^18.0.10",
+        "@vitejs/plugin-react": "^3.1.0",
+        "prettier": "^2.8.4",
+        "typescript": "^4.9.3",
+        "vite": "^4.1.0"
+    },
+    "volta": {
+        "node": "18.14.1",
+        "npm": "9.5.0",
+        "yarn": "1.22.19"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    }
 }
